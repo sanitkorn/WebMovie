@@ -1,7 +1,13 @@
 <html>
 <head>
 @include('header.link')
-    
+	<style>
+		body{
+			background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/spiderinto.jpg);
+			background-position: center;
+			background-size: cover;
+		}
+	</style>
 </head>
 <body>
     <!-- nav -->
@@ -21,35 +27,13 @@
         <a href="/website/spider/watching"><i class="fa fa-play"></i> Watch Now</a>
     </div>
     <div class="col-md-6 text-center">
-        <a href="#">
+        <a href="/website/spider/watching">
         <img src="{{asset('images/spiderinto.jpg')}}" class="movie-image">
         </a>
     </div>
     </div>
     </div>
-    <div class="container series">
-    <h2>SIMILAR MOVIES</h2>
-    <div class="row">
-    <div class="col-md-4">
-        <div class="row">
-            <a href="#" class="col-6"><img src="{{asset('images/spider1.jpg')}}"></a>
-            <a href="#" class="col-6"><img src="{{asset('images/spider2.jpg')}}"></a>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="row">
-            <a href="#" class="col-6"><img src="{{asset('images/spider3.jpg')}}"></a>
-            <a href="#" class="col-6"><img src="{{asset('images/spider4.jpg')}}"></a>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="row">
-            <a href="#" class="col-6"><img src="{{asset('images/spider5.jpg')}}"></a>
-            <a href="#" class="col-6"><img src="{{asset('images/m6.jpg')}}"></a>
-        </div>
-    </div>
-    </div>
-    </div>
+ 
     <!-- footer -->
     <br><br>
 	<hr>

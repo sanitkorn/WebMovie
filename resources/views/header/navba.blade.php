@@ -17,30 +17,30 @@
 								<div class="header">
 									<div class="container">
 										<div class="w3layouts_logo">
-											<a href="/website"><img src="{{asset('images/logo.png')}}"/></a>
+											<a href="/display"><img src="{{asset('images/logo.png')}}"/></a>
 										</div>
 									<div class="clearfix"> </div>
 								</div>
 							</li>
 						    
-							<li ><a href="/website">Home</a></li>
+							<li ><a href="/display">Home</a></li>
 							<li class="dropdown">
 								<a href="{{asset('#')}}" class="dropdown-toggle" data-toggle="dropdown">Drama <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
 									<li>
 									<div class="col-sm-4">
 										<ul class="multi-column-dropdown">
-											<li><a href="/website/chinede_drama">Chinese</a></li>
+											<li><a href="/displa">Chinese</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-4">
 										<ul class="multi-column-dropdown">
-											<li><a href="/website/korean_drama">Korean</a></li>										
+											<li><a href="/displ">Korean</a></li>										
 										</ul>
 									</div>
 									<div class="col-sm-4">
 										<ul class="multi-column-dropdown">
-											<li><a href="/website/thai_drama">Thai</a></li>
+											<li><a href="/disp">Thai</a></li>
 										</ul>
 	                            </ul>
 	                        </li>			
@@ -83,7 +83,7 @@
 									</li>
 								</ul>
 							</li>													
-							<li><a href="/website/anime">anime</a></li>
+							<li><a href="/dis">anime</a></li>
 							<li>
 								<div class="container">
 									<div class="w3_search">

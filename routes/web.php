@@ -14,6 +14,19 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('crud','CrudsController');
+Route::get('/khmerdubbed','CrudsController@khmerdubbed');
+Route::get('/animate','CrudsController@animate');
+Route::get('/chinesedrama','CrudsController@chinesedrama');
+Route::get('/koreandrama','CrudsController@koreandrama');
+Route::get('/thaidrama','CrudsController@thaidrama');
+Route::get('/animation','CrudsController@animation');
+
+Route::get('/display','CrudsController@homepage');
+Route::get('/displa','CrudsController@chinese');
+Route::get('/displ','CrudsController@korean');
+Route::get('/disp','CrudsController@thai');
+Route::get('/dis','CrudsController@anime');
 Route::get('/website',function(){
     return view('homepage');
 });
@@ -54,10 +67,8 @@ Route::get('/website/anime',function(){
 });
 
 /* Wacth */
-Route::get('/website/spider',function(){
-    return view('watchmovie');    
-});
-Route::get('/website/spider/watching',function(){
+
+Route::get('/website/watching',function(){
     return view('watching');    
 });
 
